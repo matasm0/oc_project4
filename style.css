@@ -654,6 +654,10 @@ a {
     color: #575757!important;
 }
 
+#bloc-8 a {
+    color: #cbd7ff!important
+}
+
 .container {
     max-width: 1000px;
 }
@@ -781,7 +785,7 @@ h4 {
 }
 
 .tc-white {
-    color: #364577!important;
+    color: #cbd7ff!important;
 }
 
 .btn-atomic-tangerine {
@@ -824,11 +828,11 @@ h4 {
 }
 
 .bg-atlanta-20made-20sign {
-    background-image: url("img/atlanta%20made%20sign.jpg");
+    background-image: url("img/atlanta%20made%20sign.webp");
 }
 
 .bg-atlanta-20made-20sign-20orange {
-    background-image: url("img/atlanta%20made%20sign%20orange.jpg");
+    background-image: url("img/atlanta%20made%20sign%20orange.webp");
 }
 
 @media (max-width: 1024px) {
