@@ -510,7 +510,7 @@ button {
 }
 
 .form-control {
-    border-color: rgba(0, 0, 0, .1);
+    border-color: rgba(0, 0, 0, 1);
     box-shadow: none;
 }
 
@@ -798,7 +798,7 @@ h4 {
 }
 
 .btn-atomic-tangerine {
-    background: #F3976C;
+    background: #ff590c;
     color: #FFFFFF!important;
 }
 
@@ -816,7 +816,7 @@ h4 {
 }
 
 .ltc-atomic-tangerine {
-    color: #F3976C!important;
+    color: #ff590c!important;
 }
 
 .ltc-atomic-tangerine:hover {
@@ -870,6 +870,16 @@ li>a {
 
 .social {
     margin-top: 30px;
+}
+
+.form-control {
+    border: 4px solid darkgray;
+    border-radius: 10px;
+    padding: 4px;
+}
+
+#form_1>.form-group {
+    margin-bottom: 10px;
 }
 
 @media (max-width: 1024px) {
