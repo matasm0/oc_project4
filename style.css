@@ -42,6 +42,9 @@ a:hover {
 .bloc .container {
     padding-left: 0;
     padding-right: 0;
+
+    z-index: 1;
+    position: relative;
 }
 
 .bloc-lg {
@@ -93,6 +96,7 @@ a:hover {
 .texture-paper::before {
     background: url("img/texture-paper.png");
     background-size: 280px 280px;
+    z-index: 0;
 }
 
 .b-parallax {
@@ -838,6 +842,34 @@ h4 {
 
 .bg-atlanta-20made-20sign-20orange {
     background-image: url("img/atlanta%20made%20sign%20orange.webp");
+}
+
+p#title-text{
+    font-size: 32px!important;
+}
+
+#quote, #quote-2 {
+    font-size: 18px!important;
+}
+
+p#title2-text {
+    font-size: 36px;
+}
+
+.link-header {
+    font-size: 18px!important;
+}
+
+li>a {
+    font-size: 16px;
+}
+
+#bloc-8 {
+    min-height: 150px;
+}
+
+.social {
+    margin-top: 30px;
 }
 
 @media (max-width: 1024px) {
