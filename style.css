@@ -838,10 +838,14 @@ h4 {
 
 .bg-atlanta-20made-20sign {
     background-image: url("img/atlanta%20made%20sign.webp");
+    width: 100%;
+    height: 450px;
 }
 
 .bg-atlanta-20made-20sign-20orange {
     background-image: url("img/atlanta%20made%20sign%20orange.webp");
+    width: 100%;
+    height: 780px; 
 }
 
 p#title-text{
